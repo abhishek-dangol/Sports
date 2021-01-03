@@ -9,6 +9,7 @@ import SinglePlayer from "./pages/SinglePlayer";
 import Navbar from "./components/Navbar";
 
 function App() {
+  document.title = "Dan Sports DB";
   return (
     <Router>
       <Navbar />
